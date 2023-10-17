@@ -1,14 +1,6 @@
 #include <stdio.h>
 
-void Update(int *pointer) {
+void reset_to_98(int *n) {
 
-    *pointer = 98;
-}
-
-int main() {
-    int num = 354;
-    printf("\n%d\n\n", num);
-    Update(&num);
-    printf("\n%d\n\n", num);
-    return 0;
-}   
+    *n = 98;
+   }
